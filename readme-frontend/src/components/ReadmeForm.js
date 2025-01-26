@@ -48,7 +48,7 @@ function ReadmeForm({ setReadmeContent, setProjectName }) {
     setIsLoading(true);
 
     try {
-      const response = await fetch('http://localhost:3000/api/generate-readme', {
+      const response = await fetch('https://readmev2-0.onrender.com/api/generate-readme', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
