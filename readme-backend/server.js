@@ -43,7 +43,7 @@ const razorpay = new Razorpay({
 });
 
 // Webhook secret from Razorpay
-const webhookSecret = 'YOUR_WEBHOOK_SECRET'; // Set this securely in environment variables
+const webhookSecret = process.env.WEBHOOK_SECRET; // Set this securely in environment variables
 
 
 
