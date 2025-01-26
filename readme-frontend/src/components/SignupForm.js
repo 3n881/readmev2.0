@@ -160,7 +160,7 @@ function SignupForm({ onTrialActivate }) {
       deviceId,
     });
 
-      const response = await axios.post('http://localhost:3000/api/signup', {
+      const response = await axios.post('https://readmev2-0.onrender.com/api/signup', {
         email: result.user.email,
         firebaseToken: userToken,
         deviceId,
