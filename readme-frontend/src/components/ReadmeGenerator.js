@@ -82,7 +82,7 @@ function ReadmeGenerator() {
         throw new Error('Device ID not found');
       }
 
-        const response = await axios.get(`http://localhost:3000/api/check-subscription?deviceId=${deviceId}`);
+        const response = await axios.get(`https://readmev2-0.onrender.com/api/check-subscription?deviceId=${deviceId}`);
         // ,
         // {
         //   headers: {
